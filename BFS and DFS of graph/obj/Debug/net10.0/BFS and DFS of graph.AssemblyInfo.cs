@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BFS and DFS of graph")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4670653449d58fc82401cdd1c7abcb5f0aacfb1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6942dfa3ec3b61f994fb7f76fee0ae814846f9d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BFS and DFS of graph")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BFS and DFS of graph")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
