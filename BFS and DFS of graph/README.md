@@ -69,7 +69,7 @@ FUNCTION RunDepthFirstSearch(startVertex):
                 neighbor.isExplored = True
                 neighbor.predecessor = current
                 neighbor.distance = current.distance + 1
-                LIFO_Stack.Push(neighbor)
+                LIFO_Stack.Push(neighbor) 
 ```
 
 ---
