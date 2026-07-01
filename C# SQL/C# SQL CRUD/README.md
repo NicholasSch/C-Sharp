@@ -58,15 +58,17 @@ CREATE TABLE Cliente (
 Ensure Docker Desktop is running on your machine, then execute the following single-line command in your terminal to deploy the pre-configured MySQL instance. 
 
 ```powershell
-docker run --name concessionaria-db -e MYSQL_ROOT_PASSWORD=supersecretrootpass -e MYSQL_DATABASE=concessionaria -e MYSQL_USER=user1 -e MYSQL_PASSWORD=Password -p 3306:3306 -d mysql:latest
+docker run --name concessionaria-db -e MYSQL_ROOT_PASSWORD=supersecretrootpass -e MYSQL_DATABASE=concessionaria -e MYSQL_USER=User1 -e MYSQL_PASSWORD=Password -p 3306:3306 -d mysql:latest
 ```
-*(Note: If you change the `user1` and `Password` values here, ensure you update the connection string inside `Program.cs` to match).*
 
-### 2. Add the MySQL Package Dependencies
-Open your terminal inside the project root folder and run the following command to restore the required database drivers defined in the project file:
+### 2. Add Project Source Files & Dependencies
+Ensure your code is located inside your `Program.cs` file. Run the following command inside your project directory terminal to attach the relational driver library extensions:
+
 ```bash
+dotnet new console
 dotnet add package MySql.Data
 ```
+*(Note: If you already initialized your `.csproj` file previously, you only need to run the `dotnet add package` command).*
 
 ### 3. Launch the Application
 Compile and execute the console application with a single command:
