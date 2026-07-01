@@ -1,0 +1,15 @@
+C:\Facul\C-Sharp\Dijkstra algorithm\bin\Debug\net10.0\Dijkstra algorithm.exe
+C:\Facul\C-Sharp\Dijkstra algorithm\bin\Debug\net10.0\Dijkstra algorithm.deps.json
+C:\Facul\C-Sharp\Dijkstra algorithm\bin\Debug\net10.0\Dijkstra algorithm.runtimeconfig.json
+C:\Facul\C-Sharp\Dijkstra algorithm\bin\Debug\net10.0\Dijkstra algorithm.dll
+C:\Facul\C-Sharp\Dijkstra algorithm\bin\Debug\net10.0\Dijkstra algorithm.pdb
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\Dijkstra algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\Dijkstra algorithm.AssemblyInfoInputs.cache
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\Dijkstra algorithm.AssemblyInfo.cs
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\Dijkstra algorithm.csproj.CoreCompileInputs.cache
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\Dijkstra algorithm.sourcelink.json
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\Dijkstra algorithm.dll
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\refint\Dijkstra algorithm.dll
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\Dijkstra algorithm.pdb
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\Dijkstra algorithm.genruntimeconfig.cache
+C:\Facul\C-Sharp\Dijkstra algorithm\obj\Debug\net10.0\ref\Dijkstra algorithm.dll
