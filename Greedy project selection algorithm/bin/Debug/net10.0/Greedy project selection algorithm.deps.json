@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Greedy project selection algorithm/1.0.0": {
+        "runtime": {
+          "Greedy project selection algorithm.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Greedy project selection algorithm/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
