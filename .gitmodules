@@ -1,0 +1,3 @@
+[submodule "BlockchainAPI"]
+	path = BlockchainAPI
+	url = https://github.com/NicholasSch/BlockchainAPI
