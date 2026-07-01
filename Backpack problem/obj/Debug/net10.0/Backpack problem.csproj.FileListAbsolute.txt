@@ -1,0 +1,15 @@
+C:\Facul\C-Sharp\Backpack problem\bin\Debug\net10.0\Backpack problem.exe
+C:\Facul\C-Sharp\Backpack problem\bin\Debug\net10.0\Backpack problem.deps.json
+C:\Facul\C-Sharp\Backpack problem\bin\Debug\net10.0\Backpack problem.runtimeconfig.json
+C:\Facul\C-Sharp\Backpack problem\bin\Debug\net10.0\Backpack problem.dll
+C:\Facul\C-Sharp\Backpack problem\bin\Debug\net10.0\Backpack problem.pdb
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\Backpack problem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\Backpack problem.AssemblyInfoInputs.cache
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\Backpack problem.AssemblyInfo.cs
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\Backpack problem.csproj.CoreCompileInputs.cache
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\Backpack problem.sourcelink.json
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\Backpack problem.dll
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\refint\Backpack problem.dll
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\Backpack problem.pdb
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\Backpack problem.genruntimeconfig.cache
+C:\Facul\C-Sharp\Backpack problem\obj\Debug\net10.0\ref\Backpack problem.dll
