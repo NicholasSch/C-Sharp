@@ -100,7 +100,7 @@ FUNCTION BranchAndBound(lowerBounds, upperBounds, currentBestValue, currentBestV
         IF relaxation.Profit > currentBestValue THEN:
             RETURN (relaxation.Profit, relaxation.allocationVector)
 
-    RETURN (currentBestValue, currentBestVariables)
+    RETURN (currentBestValue, currentBestVariables) 
 ```
 
 ---
