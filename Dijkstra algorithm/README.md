@@ -83,6 +83,6 @@ FUNCTION GetShortestPathRoute(destinationCity):
 
 Compile and run this project using standard CLI tools:
 ```bash
-dotnet new console
+dotnet new console 
 dotnet run
 ```
