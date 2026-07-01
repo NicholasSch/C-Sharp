@@ -46,7 +46,7 @@
 
     static void Main(string[] args) // Space: O(V^2) | Time: O(2^V) worst-case combinatorial search
     {
-        string filePath = "C:\\VSCODE\\Project selection with dependencies\\Project.txt";
+        string filePath = "C:\\VSCODE\\Project selection with dependencies\\Projects.txt";
         Graph graph;
 
         // Fallback Strategy: Load preset data if external file is missing
