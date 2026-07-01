@@ -54,7 +54,7 @@ FUNCTION SelectMaxProfitProjects(projectList):
         IF conflictDetected IS False THEN:
             selectedProjects.Append(project)
 
-    RETURN selectedProjects 
+    RETURN selectedProjects
 ```
 
 ---
