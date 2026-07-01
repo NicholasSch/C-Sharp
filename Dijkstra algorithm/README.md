@@ -27,54 +27,54 @@ By leveraging an explicit greedy evaluation strategy paired with a binary min-pr
 
 ## 📝 Formal Pseudocode (Dijkstra Engine + Backtracking)
 
-This structured pseudocode covers both the calculation stage and the route backtracking array build logic:
+This structured English pseudocode covers both the calculation stage and the route backtracking array build logic:
 
 ```text
-CLASSE Cidade:
-    propriedade nome
-    propriedade menor_tempo_ate_aqui
-    propriedade explorada
-    propriedade lista_de_arestas
-    propriedade cidade_anterior
+CLASS City:
+    property name
+    property shortestTimeTo
+    property explored
+    property edgeList
+    property previousCity
 
-CLASSE Aresta:
-    propriedade cidade_destino
-    propriedade tempo_caminho
+CLASS Edge:
+    property targetCity
+    property pathTime
 
-FUNÇÃO CalcularCaminhoMinimo(cidade_inicial):
-    Para cada cidade no mapa:
-        cidade.menor_tempo_ate_aqui = Infinito
-        cidade.explorada = Falso
-        cidade.cidade_anterior = Nulo
+FUNCTION CalculateShortestPaths(startingCity):
+    FOR EACH city IN map:
+        city.shortestTimeTo = Infinity
+        city.explored = False
+        city.previousCity = Null
 
-    cidade_inicial.menor_tempo_ate_aqui = 0
-    FilaMinima = Nova FilaDePrioridade()
-    FilaMinima.Inserir(cidade_inicial, 0)
+    startingCity.shortestTimeTo = 0
+    minHeap = New PriorityQueue()
+    minHeap.Enqueue(startingCity, 0)
 
-    ENQUANTO FilaMinima NÃO estiver vazia:
-        cidade_atual = FilaMinima.ExtrairMinimo()
-        SE cidade_atual.explorada SEJA Verdadeiro: Continuar
-        cidade_atual.explorada = Verdadeiro
+    WHILE minHeap IS NOT empty:
+        currentCity = minHeap.Dequeue()
+        IF currentCity.explored IS True THEN: Continue
+        currentCity.explored = True
 
-        PARA CADA aresta EM cidade_atual.lista_de_arestas:
-            vizinho = aresta.cidade_destino
-            SE vizinho.explorada NÃO SEJA Verdadeiro:
-                tempo_calculado = cidade_atual.menor_tempo_ate_aqui + aresta.tempo_caminho
-                SE tempo_calculado < vizinho.menor_tempo_ate_aqui:
-                    vizinho.menor_tempo_ate_aqui = tempo_calculado
-                    vizinho.cidade_anterior = cidade_atual
-                    FilaMinima.Inserir(vizinho, tempo_calculado)
+        FOR EACH edge IN currentCity.edgeList:
+            neighbor = edge.targetCity
+            IF neighbor.explored IS NOT True THEN:
+                calculatedTime = currentCity.shortestTimeTo + edge.pathTime
+                IF calculatedTime < neighbor.shortestTimeTo THEN:
+                    neighbor.shortestTimeTo = calculatedTime
+                    neighbor.previousCity = currentCity
+                    minHeap.Enqueue(neighbor, calculatedTime)
 
-FUNÇÃO ReconstruirRota(cidade_destino):
-    ListaCaminho = Nova ListaVazia()
-    atual = cidade_destino
+FUNCTION GetShortestPathRoute(destinationCity):
+    pathList = New EmptyList()
+    current = destinationCity
     
-    ENQUANTO atual NÃO FOR Nulo:
-        ListaCaminho.AdicionarNoFinal(atual.nome)
-        atual = atual.cidade_anterior
+    WHILE current IS NOT Null:
+        pathList.Append(current.name)
+        current = current.previousCity
         
-    ListaCaminho.InverterOrdem()
-    Retornar ListaCaminho
+    pathList.Reverse()
+    RETURN pathList
 ```
 
 ---
