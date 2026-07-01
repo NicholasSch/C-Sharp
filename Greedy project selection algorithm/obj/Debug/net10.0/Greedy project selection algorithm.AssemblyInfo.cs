@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Greedy project selection algorithm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8241f4d42d41f4327ec92f0f4bcbb91995705f58")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd689509c27b6c1521cf4d41489322ba1f12f153")]
 [assembly: System.Reflection.AssemblyProductAttribute("Greedy project selection algorithm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Greedy project selection algorithm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dijkstra algorithm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2abf7a5d2d3d1261eb9dc9112bdf3935d8b6572")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8241f4d42d41f4327ec92f0f4bcbb91995705f58")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dijkstra algorithm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dijkstra algorithm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
