@@ -1,3 +1,6 @@
 [submodule "BlockchainAPI"]
 	path = BlockchainAPI
 	url = https://github.com/NicholasSch/BlockchainAPI
+[submodule "Music-Streaming-API"]
+	path = Music-Streaming-API
+	url = https://github.com/NicholasSch/Music-Streaming-API.git
