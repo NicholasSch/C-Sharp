@@ -4,6 +4,3 @@
 [submodule "Music-Streaming-API"]
 	path = Music-Streaming-API
 	url = https://github.com/NicholasSch/Music-Streaming-API.git
-[submodule "Unity"]
-	path = Unity
-	url = https://github.com/NicholasSch/Unity.git
